@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kozie sery z surowego mleka - rodzinne gospodarstwo w Chudobie | Kozi Dar</title>
+<meta name="description" content="Kozie sery podpuszczkowe i wędzone, ricotta, twaróg, mleko, kefir i jogurt z rodzinnego gospodarstwa Kozi Dar w Chudobie pod Opolem. Wysyłka chłodzona, darmowa od 400 zł.">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#1C3519">
+<link rel="icon" type="image/png" sizes="48x48" href="foto/ikona-48.png">
+<link rel="apple-touch-icon" href="foto/ikona-192.png">
+<link rel="preload" href="fonts/lora-rdzen.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/inter-rdzen.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/lora-pl.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/inter-pl.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" type="image/webp" media="(max-width:760px)" imagesrcset="foto/hero-m-480.webp 480w, foto/hero-m-640.webp 640w, foto/hero-m-720.webp 720w, foto/hero-m-814.webp 814w" imagesizes="100vw" fetchpriority="high">
+<link rel="preload" as="image" type="image/webp" media="(min-width:761px)" imagesrcset="foto/hero-d-960.webp 960w, foto/hero-d-1280.webp 1280w, foto/hero-d-1600.webp 1600w" imagesizes="100vw" fetchpriority="high">
+<style>
+@font-face{font-family:"Lora";font-style:normal;font-weight:400 700;font-display:swap;src:url(fonts/lora-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B7,U+00BB,U+00D3,U+00D7,U+00F3,U+2013-2014,U+2018-2019,U+201C-201E,U+2022,U+2026}
+@font-face{font-family:"Lora";font-style:normal;font-weight:400 700;font-display:swap;src:url(fonts/lora-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+@font-face{font-family:"Inter";font-style:normal;font-weight:400 700;font-display:swap;src:url(fonts/inter-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B7,U+00BB,U+00D3,U+00D7,U+00F3,U+2013-2014,U+2018-2019,U+201C-201E,U+2022,U+2026,U+20AC}
+@font-face{font-family:"Inter";font-style:normal;font-weight:400 700;font-display:swap;src:url(fonts/inter-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+@font-face{font-family:"Lora-fb";src:local("Georgia");size-adjust:104%;ascent-override:88%;descent-override:24%;line-gap-override:0%}
+@font-face{font-family:"Inter-fb";src:local("Arial");size-adjust:107.1%;ascent-override:90.5%;descent-override:22.5%;line-gap-override:0%}
+:root{--ink:#141414;--mut:#4B504C;--rdza:#9C481C;--rdza-h:#7F3912;--ziel:#2F6E0E;--ziel-h:#255A0A;--ciem:#1C3519;--stopka:#13250F;--bg2:#F1F3F4;--line:#DCE0E2;--pad:clamp(16px,4vw,64px);--max:1640px;--hd:"Lora","Lora-fb",Georgia,serif;--tx:"Inter","Inter-fb",Arial,sans-serif}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;background:#fff;color:var(--ink);font:400 17px/1.6 var(--tx);overflow-x:hidden}
+img{max-width:100%;height:auto;display:block}
+a{color:var(--rdza)}
+h1,h2,h3{font-family:var(--hd);font-weight:700;line-height:1.12;margin:0;letter-spacing:-.01em}
+h2{font-size:clamp(32px,3.3vw,56px)}
+p{margin:0 0 1em}
+button{font:inherit;color:inherit}
+.w{width:min(100% - 2*var(--pad),var(--max));margin-inline:auto}
+.skip{position:absolute;left:-999px;top:0;background:#fff;padding:8px;z-index:99}.skip:focus{left:8px}
+/* motyw: odcisk koszyczka - przesunieta siatka kropek, jak forma odciska na serze */
+.odcisk{display:block;height:20px;border:0;margin:0;color:var(--rdza);background:radial-gradient(circle,currentColor 1.7px,transparent 2.3px) 0 0/12px 10px,radial-gradient(circle,currentColor 1.7px,transparent 2.3px) 6px 5px/12px 10px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:54px;padding:0 30px;background:var(--rdza);color:#fff;font:600 18px/1 var(--tx);text-decoration:none;border:0;border-radius:4px;cursor:pointer}
+.btn:hover{background:var(--rdza-h)}
+.btn svg{width:20px;height:20px;flex:none}
+/* naglowek */
+.top{position:sticky;top:0;z-index:40;background:#fff;border-bottom:1px solid var(--line);height:69px}
+.top .w{display:flex;align-items:center;justify-content:space-between;height:68px;gap:16px}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--ink)}
+.logo img{width:54px;height:54px}
+.logo span{font:700 22px/1 var(--hd)}
+.menu{display:flex;align-items:center;gap:clamp(18px,2.2vw,40px)}
+.menu a{color:var(--ink);text-decoration:none;font-weight:600;font-size:17px;padding:10px 0}
+.menu a:hover{color:var(--rdza)}
+.menu a.on{background:radial-gradient(circle,var(--rdza) 1.6px,transparent 2.2px) 0 100%/8px 6px repeat-x}
+.menu a.kosz,.kosz{white-space:nowrap;padding:0 16px;display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 16px;border:2px solid var(--ziel);border-radius:4px;background:#fff;color:var(--ziel);font-weight:600;font-size:16px;cursor:pointer;text-decoration:none}
+.kosz b{display:inline-grid;place-items:center;min-width:24px;height:24px;padding:0 6px;border-radius:12px;background:var(--ziel);color:#fff;font-size:13px}
+.burger,.acts{display:none}
+@media (max-width:980px){
+ .top{height:65px}.top .w{height:64px}
+ .logo img{width:48px;height:48px}.logo span{font-size:20px}
+ .menu{position:fixed;inset:64px 0 auto 0;background:#fff;flex-direction:column;align-items:stretch;gap:0;padding:8px var(--pad) 24px;border-bottom:1px solid var(--line);box-shadow:0 18px 30px rgba(20,20,20,.12);transform:translateY(-120%);visibility:hidden;transition:transform .25s ease,visibility 0s .25s}
+ .top.open .menu{transform:none;visibility:visible;transition:transform .25s ease}
+ .menu a{padding:16px 0;font-size:20px;border-bottom:1px solid var(--line)}
+ .menu a.on{background:none;box-shadow:inset 4px 0 0 var(--rdza);padding-left:14px}
+ .menu .tel{margin-top:18px;border:0}
+ .menu>.kosz{display:none}
+ .acts{display:flex;gap:8px;align-items:center}
+ .acts .kosz{min-height:46px;padding:0 12px}
+ .burger{display:inline-flex;align-items:center;justify-content:center;width:46px;height:46px;border:1px solid var(--line);border-radius:4px;background:#fff;cursor:pointer}
+ .burger i,.burger i:before,.burger i:after{display:block;width:20px;height:2px;background:var(--ink);position:relative;transition:transform .2s}
+ .burger i:before,.burger i:after{content:"";position:absolute;left:0}
+ .burger i:before{top:-6px}.burger i:after{top:6px}
+ .top.open .burger i{background:transparent}.top.open .burger i:before{transform:translateY(6px) rotate(45deg)}.top.open .burger i:after{transform:translateY(-6px) rotate(-45deg)}
+}
+@media (min-width:981px){.menu .tel{display:none}}
+@media (max-width:370px){.logo span{display:none}}
+/* pierwszy ekran */
+.hero{position:relative;min-height:calc(100svh - 69px);display:flex;flex-direction:column;justify-content:center;color:#fff;background:var(--ciem);overflow:hidden}
+.hero .foto{position:absolute;inset:0}
+.hero .foto img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 72%}
+.hero .foto:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(15,30,12,.9) 0,rgba(15,30,12,.78) 34%,rgba(15,30,12,.32) 55%,rgba(15,30,12,0) 70%)}
+.hero .in{position:relative;z-index:2;padding:48px 0 72px}
+.hero h1{font-size:clamp(38px,3.1vw,62px);max-width:15ch;text-shadow:0 2px 18px rgba(0,0,0,.25)}
+.hero .lead{margin:24px 0 32px;max-width:34ch;font-size:clamp(17px,1.12vw,22px);line-height:1.55;color:#EEF2EC}
+.hero .info{margin:18px 0 0;font-size:15px;color:#DCE5D8}
+.hero .odcisk{position:absolute;left:0;right:0;bottom:0;z-index:2;color:rgba(255,255,255,.7);height:20px}
+@media (max-width:760px){
+ .hero{min-height:calc(100svh - 65px);justify-content:flex-end}
+ .hero .foto img{object-position:36% 0}
+ .hero .foto:after{background:linear-gradient(180deg,rgba(15,30,12,0) 22%,rgba(15,30,12,.55) 44%,rgba(15,30,12,.9) 64%,rgba(15,30,12,.96) 100%)}
+ .hero .in{padding:150px 0 44px}
+ .hero h1{font-size:clamp(29px,8.2vw,36px);max-width:none}
+ .hero .lead{margin:16px 0 24px;font-size:16px}
+ .hero .btn{width:100%}
+ .hero .info{margin-top:14px;font-size:14px;text-align:center}
+ .hero .odcisk{height:10px}
+}
+/* sekcje */
+section{padding:clamp(64px,7vw,120px) 0}
+section.hero{padding:0}
+.glowa{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:clamp(28px,3vw,48px);flex-wrap:wrap}
+.glowa p{max-width:56ch;color:var(--mut);margin:14px 0 0;font-size:18px}
+/* kategorie = krazki sera */
+.katy{display:flex;gap:clamp(12px,2vw,36px);margin-bottom:clamp(28px,3vw,44px);overflow-x:auto;scrollbar-width:none;padding:4px 2px}
+.katy::-webkit-scrollbar{display:none}
+.kat{flex:none;display:flex;flex-direction:column;align-items:center;text-align:center;gap:6px;width:150px;padding:0;border:0;background:none;cursor:pointer}
+.kat .kr{display:block;width:118px;height:118px;border-radius:50%;padding:6px;border:3px dotted var(--rdza);transition:border-color .2s}
+.kat .kr img{width:100%;height:100%;border-radius:50%;object-fit:cover}
+.kat b{font-weight:600;font-size:16px;line-height:1.3;margin-top:6px}
+.kat small{font-size:14px;color:var(--mut)}
+.kat[aria-pressed="true"] .kr{border-style:solid}
+.kat[aria-pressed="true"] b{color:var(--rdza)}
+.kat:hover .kr{border-color:var(--ziel)}
+@media (max-width:620px){.kat{width:118px}.kat .kr{width:96px;height:96px;padding:5px}.kat b{font-size:14px}}
+/* tor kart */
+.tor{display:grid;grid-auto-flow:column;grid-auto-columns:clamp(230px,23%,330px);gap:20px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding-bottom:4px;cursor:grab}
+.tor::-webkit-scrollbar{display:none}
+.tor.drag{cursor:grabbing;scroll-snap-type:none}
+.tor>*{scroll-snap-align:start}
+@media (min-width:760px){.tor{grid-auto-columns:calc((100% - 40px)/3)}}
+@media (min-width:1100px){.tor{grid-auto-columns:calc((100% - 60px)/4)}}
+@media (min-width:1500px){.tor{grid-auto-columns:calc((100% - 80px)/5)}}
+@media (max-width:620px){.tor{grid-auto-columns:72%;gap:14px}}
+.prod{display:flex;flex-direction:column;border:1px solid var(--line);border-radius:6px;overflow:hidden;background:#fff}
+.prod[hidden]{display:none}
+.prod img{width:100%;aspect-ratio:1;object-fit:cover;-webkit-user-drag:none;user-select:none}
+.prod h3{font:600 17px/1.35 var(--tx);margin:16px 18px 6px}
+.prod p{margin:0 18px 14px;font-size:15px;line-height:1.5;color:var(--mut);flex:1}
+.cena{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin:0 18px 14px}
+.cena b{font:700 24px/1 var(--hd);color:var(--rdza)}
+.cena span{font-size:14px;color:var(--mut)}
+.dok{margin:0 18px 18px;min-height:46px;border:0;border-radius:4px;background:var(--ziel);color:#fff;font-weight:600;font-size:16px;cursor:pointer}
+.dok:hover{background:var(--ziel-h)}
+.dok.ok{background:var(--rdza)}
+.strz{display:flex;gap:8px}
+.strz button{width:50px;height:50px;border:1px solid var(--line);border-radius:4px;background:#fff;cursor:pointer;display:grid;place-items:center}
+.strz button:hover{border-color:var(--ink)}
+.strz svg{width:20px;height:20px}
+@media (max-width:620px){.strz{display:none}}
+.pod{margin-top:22px;font-size:15px;color:var(--mut)}
+/* surowe mleko - ciemna sekcja */
+.mleko{background:var(--ciem);color:#fff;padding:0;position:relative}
+.mleko .odcisk{color:#5E8A3A}
+.mleko .siatka{display:grid;grid-template-columns:1fr 1fr;min-height:640px}
+.mleko .fot{position:relative;overflow:hidden}
+.mleko .fot img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.mleko .txt{padding:clamp(56px,6vw,110px) var(--pad);max-width:780px}
+.mleko h2{color:#fff}
+.mleko .txt>p{color:#DDE6D8;font-size:18px;margin:22px 0 28px;max-width:46ch}
+.punkty{list-style:none;margin:0 0 30px;padding:0;display:grid;gap:20px}
+.punkty li{position:relative;padding-left:38px;color:#EEF3EB;font-size:17px}
+.punkty li:before{content:"";position:absolute;left:0;top:3px;width:22px;height:22px;background:radial-gradient(circle,#B9D99A 1.6px,transparent 2.2px) 0 0/7px 7px;border-radius:50%}
+.punkty b{display:block;color:#fff;font-size:18px;margin-bottom:2px}
+.uwaga{font-size:14px;color:#B9C7B3;border-top:1px solid rgba(255,255,255,.18);padding-top:18px;max-width:58ch}
+@media (max-width:900px){.mleko .siatka{grid-template-columns:1fr;min-height:0}.mleko .fot{aspect-ratio:4/3}}
+/* o nas */
+.rodzina{border-radius:6px;overflow:hidden;margin-bottom:clamp(32px,3.5vw,56px)}
+.rodzina img{width:100%;aspect-ratio:1280/660;object-fit:cover}
+.historia{display:grid;grid-template-columns:1.25fr 1fr;gap:clamp(28px,5vw,96px);margin-bottom:clamp(40px,4vw,64px)}
+.historia p{font-size:18px}
+.kto{margin:0;padding:0;list-style:none;border-top:1px solid var(--line)}
+.kto li{display:grid;grid-template-columns:110px 1fr;gap:14px;padding:16px 0;border-bottom:1px solid var(--line);font-size:16px}
+.kto b{font-family:var(--hd);font-size:20px}
+.wyr{margin-top:22px;font-size:16px;color:var(--mut)}
+@media (max-width:900px){.historia{grid-template-columns:1fr}}
+.gal figure{margin:0}
+.gal button{display:block;width:100%;padding:0;border:0;border-radius:6px;overflow:hidden;cursor:zoom-in;background:var(--bg2)}
+.gal img{width:100%;aspect-ratio:4/5;object-fit:cover;transition:transform .4s;-webkit-user-drag:none;user-select:none}
+.gal button:hover img{transform:scale(1.03)}
+.gal figcaption{font-size:15px;color:var(--mut);margin-top:10px;line-height:1.45}
+/* dostawa */
+.dostawa{background:var(--bg2)}
+.dost{display:grid;grid-template-columns:1fr 1fr;gap:clamp(32px,5vw,96px);align-items:start}
+.kroki{list-style:none;margin:0;padding:0 0 0 30px;border-left:3px dotted var(--rdza);display:grid;gap:26px}
+.kroki li{position:relative}
+.kroki li:before{content:"";position:absolute;left:-41px;top:4px;width:19px;height:19px;border-radius:50%;background:var(--bg2);border:3px solid var(--rdza)}
+.kroki b{display:block;font-family:var(--hd);font-size:21px;margin-bottom:4px}
+.kroki span{color:var(--mut)}
+.dost .fot{border-radius:6px;overflow:hidden;margin-bottom:24px}
+.dost .fot img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.odbior{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.odbior>div{background:#fff;border-radius:6px;padding:22px}
+.odbior h3{font-size:21px;margin-bottom:8px}
+.odbior p{margin:0;font-size:15px;color:var(--mut)}
+.godz{display:grid;grid-template-columns:auto 1fr;gap:2px 14px;font-size:15px;margin-top:10px}
+@media (max-width:900px){.dost{grid-template-columns:1fr}}
+@media (max-width:520px){.odbior{grid-template-columns:1fr}}
+/* kontakt */
+.kont{display:grid;grid-template-columns:1fr 1.1fr;gap:clamp(32px,5vw,96px);align-items:start}
+.duzy{display:inline-flex;align-items:center;gap:12px;font:700 clamp(28px,2.6vw,40px)/1.1 var(--hd);color:var(--ink);text-decoration:none;margin:20px 0 6px}
+.duzy svg{width:28px;height:28px;color:var(--rdza)}
+.kont .dane{color:var(--mut);font-size:16px;margin-top:22px}
+.kont .dane b{color:var(--ink)}
+form{display:grid;gap:16px;background:var(--bg2);border-radius:6px;padding:clamp(20px,3vw,40px)}
+form h3{font-size:26px}
+label{display:grid;gap:6px;font-weight:600;font-size:15px}
+input,textarea{font:400 17px/1.4 var(--tx);padding:13px 14px;border:1px solid #BFC5C8;border-radius:4px;background:#fff;color:var(--ink);width:100%}
+input:focus,textarea:focus{outline:2px solid var(--ziel);outline-offset:1px;border-color:var(--ziel)}
+[aria-invalid="true"]{border-color:#B3261E;outline:1px solid #B3261E}
+.zg{display:flex;gap:10px;align-items:flex-start;font-weight:400;font-size:14px;color:var(--mut)}
+.zg input{width:22px;height:22px;flex:none;margin:1px 0 0;accent-color:var(--ziel)}
+.msg{background:#fff;border-left:4px solid var(--ziel);padding:14px 16px;font-size:15px}
+.mapa{margin-top:clamp(40px,4vw,64px);height:380px;border-radius:6px;overflow:hidden;background:var(--bg2)}
+.mapa iframe{width:100%;height:100%;border:0;display:block}
+@media (max-width:900px){.kont{grid-template-columns:1fr}.mapa{height:300px}}
+/* stopka */
+footer{background:var(--stopka);color:#C9D5C4;font-size:15px}
+footer .odcisk{color:#3C6A26}
+footer .w{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:32px;padding:56px 0 28px}
+footer h3{font:600 15px/1.3 var(--tx);color:#fff;margin-bottom:12px}
+footer p{margin:0 0 6px}
+footer a{color:#fff;text-decoration:none}
+footer a:hover{text-decoration:underline}
+footer .fl img{width:72px;height:72px;margin-bottom:14px;background:#fff;border-radius:50%}
+footer .dol{grid-column:1/-1;display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;border-top:1px solid rgba(255,255,255,.14);padding-top:22px;font-size:14px;color:#A9B8A3}
+@media (max-width:900px){footer .w{grid-template-columns:1fr 1fr;gap:26px 18px}footer .fl{grid-column:1/-1}}
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+
+/* lightbox */
+.lb{position:fixed;inset:0;z-index:90;background:rgba(10,16,9,.94);display:none;align-items:center;justify-content:center;padding:56px 12px}
+.lb.on{display:flex}
+.lb figure{margin:0;display:flex;flex-direction:column;align-items:center;max-width:100%;max-height:100%}
+.lb img{max-width:min(1200px,100%);max-height:calc(100svh - 150px);width:auto;height:auto;border-radius:4px}
+.lb figcaption{color:#E5EBE2;margin-top:12px;font-size:15px;text-align:center}
+.lb button{position:absolute;width:52px;height:52px;border:0;border-radius:4px;background:rgba(255,255,255,.12);color:#fff;font-size:26px;cursor:pointer}
+.lb .x{top:10px;right:10px}.lb .p{left:10px;top:50%}.lb .n{right:10px;top:50%}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+<a class="skip" href="#tresc">Przejdź do treści</a>
+<header class="top" id="top">
+ <div class="w">
+  <a class="logo" href="#start" aria-label="Kozi Dar, strona główna"><img src="foto/logo-128.webp" srcset="foto/logo-64.webp 64w, foto/logo-96.webp 96w, foto/logo-128.webp 128w" sizes="54px" width="54" height="54" alt="Logo Kozi Dar"><span>Kozi Dar</span></a>
+  <nav class="menu" id="menu" aria-label="Menu główne">
+   <a href="#sery">Sery i nabiał</a>
+   <a href="#mleko">Surowe mleko</a>
+   <a href="#o-nas">O nas</a>
+   <a href="#dostawa">Dostawa</a>
+   <a href="#kontakt">Kontakt</a>
+   <a class="kosz" href="#sery">Koszyk <b class="ile">0</b></a>
+   <a class="btn tel" href="tel:+48796376272"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2z"/></svg> 796 376 272</a>
+  </nav>
+  <div class="acts">
+   <a class="kosz" href="#sery">Koszyk <b class="ile">0</b></a>
+   <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="menu" aria-label="Otwórz menu"><i></i></button>
+  </div>
+ </div>
+</header>
+<main id="tresc">
+<section class="hero" id="start">
+ <div class="foto"><picture><source media="(max-width:760px)" srcset="foto/hero-m-480.webp 480w, foto/hero-m-640.webp 640w, foto/hero-m-720.webp 720w, foto/hero-m-814.webp 814w" sizes="100vw"><img src="foto/hero-d-1280.webp" srcset="foto/hero-d-960.webp 960w, foto/hero-d-1280.webp 1280w, foto/hero-d-1600.webp 1600w" sizes="100vw" width="1280" height="725" fetchpriority="high" alt="Stół z kozimi serami i deską z napisem Kozi Dar na pastwisku w Chudobie, w tle kozy"></picture></div>
+ <div class="w in">
+  <h1>Kozie sery z Chudoby - od kozy na pastwisku po ser w Twojej lodówce</h1>
+  <p class="lead">Rodzinne gospodarstwo pod Opolem. Sery, jogurty i kefir z mleka naszych kóz, robione ręcznie, w małych partiach.</p>
+  <a class="btn" href="#sery">Zobacz sery</a>
+  <p class="info">Wysyłka chłodzona, darmowa od 400 zł</p>
+ </div>
+ <span class="odcisk" aria-hidden="true"></span>
+</section>
+
+<section id="sery">
+ <div class="w">
+  <div class="glowa">
+   <div><h2>Sery i nabiał z naszej serowarni</h2><p>Wszystko z mleka naszych kóz: sery podpuszczkowe i wędzone, ricotta, twaróg, mleko, kefir i jogurt. Ceny brutto.</p></div>
+   <div class="strz" data-nav="produkty"><button type="button" data-k="-1" aria-label="Poprzednie produkty"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 5l-7 7 7 7"/></svg></button><button type="button" data-k="1" aria-label="Następne produkty"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 5l7 7-7 7"/></svg></button></div>
+  </div>
+  <div class="katy" role="group" aria-label="Kategorie produktów"><button type="button" class="kat" data-k="pop" aria-pressed="true"><span class="kr"><img data-src="foto/p239-300.webp" data-srcset="foto/p239-300.webp 300w, foto/p239-450.webp 450w, foto/p239-600.webp 600w" sizes="120px" width="300" height="300" decoding="async" alt=""></span><b>Najczęściej wybierane</b><small>8 produktów</small></button><button type="button" class="kat" data-k="wedz" aria-pressed="false"><span class="kr"><img data-src="foto/p228-300.webp" data-srcset="foto/p228-300.webp 300w, foto/p228-450.webp 450w, foto/p228-600.webp 600w" sizes="120px" width="300" height="300" decoding="async" alt=""></span><b>Sery wędzone</b><small>5 produktów</small></button><button type="button" class="kat" data-k="podp" aria-pressed="false"><span class="kr"><img data-src="foto/p250-300.webp" data-srcset="foto/p250-300.webp 300w, foto/p250-450.webp 450w, foto/p250-600.webp 600w" sizes="120px" width="300" height="300" decoding="async" alt=""></span><b>Sery podpuszczkowe</b><small>9 produktów</small></button><button type="button" class="kat" data-k="swiez" aria-pressed="false"><span class="kr"><img data-src="foto/p249-300.webp" data-srcset="foto/p249-300.webp 300w, foto/p249-450.webp 450w, foto/p249-600.webp 600w" sizes="120px" width="300" height="300" decoding="async" alt=""></span><b>Ricotta, twaróg i pasta</b><small>4 produkty</small></button><button type="button" class="kat" data-k="mleko" aria-pressed="false"><span class="kr"><img data-src="foto/p259-300.webp" data-srcset="foto/p259-300.webp 300w, foto/p259-450.webp 450w, foto/p259-600.webp 600w" sizes="120px" width="300" height="300" decoding="async" alt=""></span><b>Mleko, kefir, jogurt</b><small>4 produkty</small></button></div>
+  <div class="tor" id="produkty" data-tor><article class="prod" data-kat="pop wedz"><img data-src="foto/p239-450.webp" data-srcset="foto/p239-300.webp 300w, foto/p239-450.webp 450w, foto/p239-600.webp 600w" sizes="(max-width:620px) 72vw, (max-width:1100px) 34vw, 300px" width="450" height="450" decoding="async" alt="Chudobski ser wędzony ze słonecznikiem"><h3>Chudobski ser wędzony ze słonecznikiem</h3><p>Wędzony tradycyjnie, z chrupiącymi ziarnami słonecznika</p><div class="cena"><b>39,00 zł</b><span>300-320 g</span></div><button type="button" class="dok" data-n="Chudobski ser wędzony ze słonecznikiem">Do koszyka</button></article><article class="prod" data-kat="pop wedz"><img data-src="foto/p255-450.webp" data-srcset="foto/p255-300.webp 300w, foto/p255-450.webp 450w, foto/p255-600.webp 600w" sizes="(max-width:620px) 72vw, (max-width:1100px) 34vw, 300px" width="450" height="450" decoding="async" alt="Ser wędzony z orzechem i żurawiną"><h3>Ser wędzony z orzechem i żurawiną</h3><p>Orzechy włoskie i słodka nuta żurawiny</p><div class="cena"><b>39,00 zł</b><span>300-320 g</span></div><button type="button" class="dok" data-n="Ser wędzony z orzechem i żurawiną">Do koszyka</button></article><article class="prod" data-kat="pop wedz"><img data-src="foto/p228-450.webp" data-srcset="foto/p228-300.webp 300w, foto/p228-450.webp 450w, foto/p228-600.webp 600w" sizes="(max-width:620px) 72vw, (max-width:1100px) 34vw, 300px" width="450" height="450" decoding="async" alt="Chudobski ser wędzony naturalny"><h3>Chudobski ser wędzony naturalny</h3><p>Mleczny, lekko słony, można go grillować</p><div class="cena"><b>39,00 zł</b><span>300-320 g</span></div><button type="button" class="dok" data-n="Chudobski ser wędzony naturalny">Do koszyka</button></article><article class="prod" data-kat="wedz" hidden><img data-src="foto/p234-450.webp" data-srcset="foto/p234-300.webp 300w, foto/p234-450.webp 450w, foto/p234-600.webp 600w" sizes="(max-width:620px) 72vw, (max-width:1100px) 34vw, 300px" width="450" height="450" decoding="async" alt="Ser wędzony z orzechem włoskim"><h3>Ser wędzony z orzechem włoskim</h3><p>Kawałki orzechów w każdym plastrze, dobry z miodem i gruszką</p><div class="cena"><b>39,00 zł</b><span>300-320 g</span></div><button type="button" class="dok" data-n="Ser wędzony z orzechem włoskim">Do koszyka</button></article><article class="prod" data-kat="wedz" hidden><img data-src="foto/p233-450.webp" data-srcset="foto/p233-300.webp 300w, foto/p233-450.webp 450w, foto/p233-600.webp 600w" sizes="(max-width:620px) 72vw, (max-width:1100px) 34vw, 300px" width="450" height="450" decoding="async" alt="Chudobski ser wędzony z żurawiną"><h3>Chudobski ser wędzony z żurawiną</h3><p>Dym, sól i owocowa słodycz, ładny na deskę serów</p><div class="cena"><b>39,00 zł</b><span>300-320 g</span></div><button type="button" class="dok" data-n="Chudobski ser wędzony z żurawiną">Do koszyka</button></article><article class="prod" data-kat="pop podp"><img data-src="foto/p247-450.webp" data-srcset="foto/p247-300.webp 300w, foto/p247-450.webp 450w, foto/p247-600.webp 600w" sizes="(max-width:620px) 72vw, (max-width:1100px) 34vw, 300px" width="450" height="450" decoding="async" alt="Ser podpuszczkowy bez dodatków"><h3>Ser podpuszczkowy bez dodatków</h3><p>Delikatny i puszysty, nasalany solą kamienną z Kłodawy</p><div class="cena"><b>39,00 zł</b><span>300-320 g</span></div><button type="button" class="dok" data-n="Ser podpuszczkowy bez dodatków">Do koszyka</button></article><article class="prod" data-kat="podp" hidden><img data-src="foto/p254-450.webp" data-srcset="foto/p254-300.webp 300w, foto/p254-450.webp 450w, foto/p254-600.webp 600w" sizes="(max-width:620px) 72vw, (max-width:1100px) 34vw, 300px" width="450" height="450" decoding="async" alt="Ser z bogatą mieszanką ziół"><h3>Ser z bogatą mieszanką ziół</h3><p>Suszone pomidory, czosnek niedźwiedzi i czarnuszka</p><div class="cena"><b>39,00 zł</b><span>300-320 g</span></div><button type="button" class="dok" data-n="Ser z bogatą mieszanką ziół">Do koszyka</button></article><article class="prod" data-kat="podp" hidden><img data-src="foto/p257-450.webp" data-srcset="foto/p257-300.webp 300w, foto/p257-450.webp 450w, foto/p257-600.webp 600w" sizes="(max-width:620px) 72vw, (max-width:1100px) 34vw, 300px" width="450" height="450" decoding="async" alt="Ser z domowym czosnkiem"><h3>Ser z domowym czosnkiem</h3><p>Z niepasteryzowanego mleka, miękki i delikatny</p><div class="cena"><b>39,00 zł</b><span>300-320 g</span></div><button type="button" class="dok" data-n="Ser z domowym czosnkiem">Do koszyka</button></article><article class="prod" data-kat="podp" hidden><img data-src="foto/p216-450.webp" data-srcset="foto/p216-300.webp 300w, foto/p216-450.webp 450w, foto/p216-600.webp 600w" sizes="(max-width:620px) 72vw, (max-width:1100px) 34vw, 300px" width="450" height="450" decoding="async" alt="Ser z kozieradką"><h3>Ser z kozieradką</h3><p>Z wyraźnym posmakiem kozieradki</p><div class="cena"><b>39,00 zł</b><span>300-320 g</span></div><button type="button" class="dok" data-n="Ser z kozieradką">Do koszyka</button></article><article class="prod" data-kat="podp" hidden><img data-src="foto/p220-450.webp" data-srcset="foto/p220-300.webp 300w, foto/p220-450.webp 450w, foto/p220-600.webp 600w" sizes="(max-width:620px) 72vw, (max-width:1100px) 34vw, 300px" width="450" height="450" decoding="async" alt="Ser z domową ostrą papryką"><h3>Ser z domową ostrą papryką</h3><p>Mięciutki, z niepasteryzowanego mleka</p><div class="cena"><b>39,00 zł</b><span>300-320 g</span></div><button type="button" class="dok" data-n="Ser z domową ostrą papryką">Do koszyka</button></article><article class="prod" data-kat="podp" hidden><img data-src="foto/p250-450.webp" data-srcset="foto/p250-300.webp 300w, foto/p250-450.webp 450w, foto/p250-600.webp 600w" sizes="(max-width:620px) 72vw, (max-width:1100px) 34vw, 300px" width="450" height="450" decoding="async" alt="Ser z suszonym czosnkiem niedźwiedzim"><h3>Ser z suszonym czosnkiem niedźwiedzim</h3><p>Ręcznie nasalany solą kamienną</p><div class="cena"><b>39,00 zł</b><span>300-320 g</span></div><button type="button" class="dok" data-n="Ser z suszonym czosnkiem niedźwiedzim">Do koszyka</button></article><article class="prod" data-kat="podp" hidden><img data-src="foto/p223-450.webp" data-srcset="foto/p223-300.webp 300w, foto/p223-450.webp 450w, foto/p223-600.webp 600w" sizes="(max-width:620px) 72vw, (max-width:1100px) 34vw, 300px" width="450" height="450" decoding="async" alt="Ser z czarnuszką"><h3>Ser z czarnuszką</h3><p>Z niepasteryzowanego mleka koziego</p><div class="cena"><b>39,00 zł</b><span>300-320 g</span></div><button type="button" class="dok" data-n="Ser z czarnuszką">Do koszyka</button></article><article class="prod" data-kat="podp" hidden><img data-src="foto/p207-450.webp" data-srcset="foto/p207-300.webp 300w, foto/p207-450.webp 450w, foto/p207-600.webp 600w" sizes="(max-width:620px) 72vw, (max-width:1100px) 34vw, 300px" width="450" height="450" decoding="async" alt="Ser z pistacjami i nerkowcem"><h3>Ser z pistacjami i nerkowcem</h3><p>Aromatyczne pistacje i chrupiące nerkowce</p><div class="cena"><b>39,00 zł</b><span>300-320 g</span></div><button type="button" class="dok" data-n="Ser z pistacjami i nerkowcem">Do koszyka</button></article><article class="prod" data-kat="podp" hidden><img data-src="foto/p252-450.webp" data-srcset="foto/p252-300.webp 300w, foto/p252-450.webp 450w, foto/p252-600.webp 600w" sizes="(max-width:620px) 72vw, (max-width:1100px) 34vw, 300px" width="450" height="450" decoding="async" alt="Ser z pomidorami, czosnkiem i bazylią"><h3>Ser z pomidorami, czosnkiem i bazylią</h3><p>Bez konserwantów, z wyrazistymi ziołami</p><div class="cena"><b>39,00 zł</b><span>300-320 g</span></div><button type="button" class="dok" data-n="Ser z pomidorami, czosnkiem i bazylią">Do koszyka</button></article><article class="prod" data-kat="pop swiez"><img data-src="foto/p249-450.webp" data-srcset="foto/p249-300.webp 300w, foto/p249-450.webp 450w, foto/p249-600.webp 600w" sizes="(max-width:620px) 72vw, (max-width:1100px) 34vw, 300px" width="450" height="450" decoding="async" alt="Ricotta kozia"><h3>Ricotta kozia</h3><p>Lekko słodka, bardzo delikatna i puszysta</p><div class="cena"><b>26,00 zł</b><span>200 g</span></div><button type="button" class="dok" data-n="Ricotta kozia">Do koszyka</button></article><article class="prod" data-kat="pop swiez"><img data-src="foto/p245-450.webp" data-srcset="foto/p245-300.webp 300w, foto/p245-450.webp 450w, foto/p245-600.webp 600w" sizes="(max-width:620px) 72vw, (max-width:1100px) 34vw, 300px" width="450" height="450" decoding="async" alt="Twaróg z mleka koziego"><h3>Twaróg z mleka koziego</h3><p>Puszysty, kremowy, z lekko kwaśnym aromatem</p><div class="cena"><b>26,00 zł</b><span>200 g</span></div><button type="button" class="dok" data-n="Twaróg z mleka koziego">Do koszyka</button></article><article class="prod" data-kat="swiez" hidden><img data-src="foto/p241-450.webp" data-srcset="foto/p241-300.webp 300w, foto/p241-450.webp 450w, foto/p241-600.webp 600w" sizes="(max-width:620px) 72vw, (max-width:1100px) 34vw, 300px" width="450" height="450" decoding="async" alt="Pasta z sera koziego"><h3>Pasta z sera koziego</h3><p>Z czosnkiem, pomidorami i kaparami</p><div class="cena"><b>22,00 zł</b><span>170 g</span></div><button type="button" class="dok" data-n="Pasta z sera koziego">Do koszyka</button></article><article class="prod" data-kat="swiez" hidden><img data-src="foto/p225-450.webp" data-srcset="foto/p225-300.webp 300w, foto/p225-450.webp 450w, foto/p225-600.webp 600w" sizes="(max-width:620px) 72vw, (max-width:1100px) 34vw, 300px" width="450" height="450" decoding="async" alt="Ser solankowy"><h3>Ser solankowy</h3><p>Zwarty, słonawy, do sałatek, zapiekanek i na grilla</p><div class="cena"><b>39,00 zł</b><span>300 g</span></div><button type="button" class="dok" data-n="Ser solankowy">Do koszyka</button></article><article class="prod" data-kat="pop mleko"><img data-src="foto/p176-450.webp" data-srcset="foto/p176-300.webp 300w, foto/p176-450.webp 450w, foto/p176-600.webp 600w" sizes="(max-width:620px) 72vw, (max-width:1100px) 34vw, 300px" width="450" height="450" decoding="async" alt="Świeże mleko kozie"><h3>Świeże mleko kozie</h3><p>Słodkie i delikatne, do picia, kawy i wypieków</p><div class="cena"><b>16,00 zł</b><span>słoik 900 ml</span></div><button type="button" class="dok" data-n="Świeże mleko kozie">Do koszyka</button></article><article class="prod" data-kat="mleko" hidden><img data-src="foto/p259-450.webp" data-srcset="foto/p259-300.webp 300w, foto/p259-450.webp 450w, foto/p259-600.webp 600w" sizes="(max-width:620px) 72vw, (max-width:1100px) 34vw, 300px" width="450" height="450" decoding="async" alt="Surowy kefir kozi na grzybku tybetańskim"><h3>Surowy kefir kozi na grzybku tybetańskim</h3><p>Orzeźwiający, lekko musujący i delikatnie kwaskowy</p><div class="cena"><b>16,00 zł</b><span>330 ml</span></div><button type="button" class="dok" data-n="Surowy kefir kozi na grzybku tybetańskim">Do koszyka</button></article><article class="prod" data-kat="mleko" hidden><img data-src="foto/p243-450.webp" data-srcset="foto/p243-300.webp 300w, foto/p243-450.webp 450w, foto/p243-600.webp 600w" sizes="(max-width:620px) 72vw, (max-width:1100px) 34vw, 300px" width="450" height="450" decoding="async" alt="Jogurt naturalny"><h3>Jogurt naturalny</h3><p>Śmietankowy, lekko kwaskowaty, bez dodatków</p><div class="cena"><b>16,00 zł</b><span>320 ml</span></div><button type="button" class="dok" data-n="Jogurt naturalny">Do koszyka</button></article><article class="prod" data-kat="mleko" hidden><img data-src="foto/p209-450.webp" data-srcset="foto/p209-300.webp 300w, foto/p209-450.webp 450w, foto/p209-600.webp 600w" sizes="(max-width:620px) 72vw, (max-width:1100px) 34vw, 300px" width="450" height="450" decoding="async" alt="Serwatka kozia"><h3>Serwatka kozia</h3><p>Lekko kwaskowata i orzeźwiająca</p><div class="cena"><b>15,00 zł</b><span>butelka 1 l</span></div><button type="button" class="dok" data-n="Serwatka kozia">Do koszyka</button></article></div>
+  <p class="pod">Sery 300-320 g, ricotta i twaróg także po 500 g, mleko także w butelce 1 l. Minimalne zamówienie 99 zł.</p>
+ </div>
+</section>
+
+<section class="mleko" id="mleko">
+ <span class="odcisk" aria-hidden="true"></span>
+ <div class="siatka">
+  <div class="fot"><img data-src="foto/pastwisko-800.webp" data-srcset="foto/pastwisko-480.webp 480w, foto/pastwisko-800.webp 800w, foto/pastwisko-960.webp 960w" sizes="(max-width:900px) 100vw, 50vw" width="800" height="600" decoding="async" alt="Koza je świeżą trawę na pastwisku w Chudobie"></div>
+  <div class="txt">
+   <h2>Surowe mleko i krótki skład</h2>
+   <p>Większość naszych serów robimy z mleka niepasteryzowanego. Trafia do serowarni takie, jakie dały nasze kozy, dlatego ma pełniejszy smak, a każda partia smakuje odrobinę inaczej, zależnie od pory roku.</p>
+   <ul class="punkty">
+    <li><b>Siano i trawa z naszych łąk</b>Kozy jedzą je przez cały rok, bez kiszonek, a paszę przygotowujemy sami. Dzięki temu mleko jest czyste i delikatne.</li>
+    <li><b>Wszystko robimy sami</b>Sami opiekujemy się kozami, sami doimy i sami robimy sery, jogurty i kefir, ręcznie i w małych partiach. Nic nie zlecamy na zewnątrz.</li>
+    <li><b>Mleko, kultury bakterii, sól</b>Do tego tylko naturalne dodatki, takie jak orzechy, żurawina czy zioła. Bez konserwantów, stabilizatorów i ulepszaczy.</li>
+   </ul>
+   <p class="uwaga">Produkty z mleka surowego nie są poddawane obróbce cieplnej. W ciąży, przy obniżonej odporności i dla małych dzieci prosimy o wcześniejszą konsultację z lekarzem.</p>
+  </div>
+ </div>
+</section>
+
+<section id="o-nas">
+ <div class="w">
+  <div class="glowa"><div><h2>Wszystko zaczęło się od jednej kozy</h2></div></div>
+  <div class="rodzina"><img data-src="foto/rodzina-960.webp" data-srcset="foto/rodzina-640.webp 640w, foto/rodzina-960.webp 960w, foto/rodzina-1280.webp 1280w" sizes="(max-width:1100px) 92vw, 1100px" width="960" height="495" decoding="async" alt="Rodzina Famułów z kozą przy stole z serami i deską Kozi Dar"></div>
+  <div class="historia">
+   <div>
+    <p>Gospodarstwo Kozi Dar powstało w maju 2015 roku. Pierwszą kozę przywiozła mama, Gosia, żeby jej czterej synowie pili naturalne mleko prosto z gospodarstwa. Niedługo później tata, Romek, wrócił ze spotkania hodowców z planem: powiększyć stado i zacząć robić sery rzemieślnicze.</p>
+    <p>Dziś mamy ponad 200 kóz, a nazwa ma dla nas podwójne znaczenie. To dar dla naszej rodziny, bo jedna koza dała nam nowy początek, i dar dla Was: uczciwe produkty prosto od rolników.</p>
+   </div>
+   <div>
+    <ul class="kto">
+     <li><b>Gosia</b><span>serce serowarni, specjalizuje się w serach z niepasteryzowanego mleka</span></li>
+     <li><b>Romek</b><span>czuwa nad całą hodowlą</span></li>
+     <li><b>Kacper</b><span>kozy, uprawy i rozwój produkcji</span></li>
+     <li><b>Jakub</b><span>kontakt z klientami i sprzedaż</span></li>
+    </ul>
+    <p class="wyr">Wyróżnienia: Perła 2021 w Poznaniu za najlepszy produkt oraz tytuł "Opolska Marka" za świeże sery podpuszczkowe.</p>
+   </div>
+  </div>
+  <div class="glowa" style="margin-bottom:22px"><div></div><div class="strz" data-nav="galeria"><button type="button" data-k="-1" aria-label="Poprzednie zdjęcia"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 5l-7 7 7 7"/></svg></button><button type="button" data-k="1" aria-label="Następne zdjęcia"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 5l7 7-7 7"/></svg></button></div></div>
+  <div class="tor gal" id="galeria" data-tor><figure><button type="button" data-lb="gal" data-src="foto/degustacja-576.webp" data-cap="Gosia i Romek przy stole z serami na pastwisku"><img data-src="foto/degustacja-576.webp" data-srcset="foto/degustacja-400.webp 400w, foto/degustacja-576.webp 576w" sizes="(max-width:620px) 70vw, (max-width:1100px) 36vw, 340px" width="576" height="720" decoding="async" alt="Gosia i Romek przy stole z serami na pastwisku"></button><figcaption>Gosia i Romek przy stole z serami na pastwisku</figcaption></figure><figure><button type="button" data-lb="gal" data-src="foto/romek-kozy-576.webp" data-cap="Romek z kozami na łące"><img data-src="foto/romek-kozy-576.webp" data-srcset="foto/romek-kozy-400.webp 400w, foto/romek-kozy-576.webp 576w" sizes="(max-width:620px) 70vw, (max-width:1100px) 36vw, 340px" width="576" height="720" decoding="async" alt="Romek z kozami na łące"></button><figcaption>Romek z kozami na łące</figcaption></figure><figure><button type="button" data-lb="gal" data-src="foto/stado-576.webp" data-cap="Kozy przez cały rok jedzą trawę i siano z naszych łąk"><img data-src="foto/stado-576.webp" data-srcset="foto/stado-400.webp 400w, foto/stado-576.webp 576w" sizes="(max-width:620px) 70vw, (max-width:1100px) 36vw, 340px" width="576" height="720" decoding="async" alt="Kozy przez cały rok jedzą trawę i siano z naszych łąk"></button><figcaption>Kozy przez cały rok jedzą trawę i siano z naszych łąk</figcaption></figure><figure><button type="button" data-lb="gal" data-src="foto/gosia-romek-640.webp" data-cap="Gosia i Romek z wyróżnieniem Samorządu Województwa Opolskiego"><img data-src="foto/gosia-romek-640.webp" data-srcset="foto/gosia-romek-400.webp 400w, foto/gosia-romek-640.webp 640w" sizes="(max-width:620px) 70vw, (max-width:1100px) 36vw, 340px" width="640" height="800" decoding="async" alt="Gosia i Romek z wyróżnieniem Samorządu Województwa Opolskiego"></button><figcaption>Gosia i Romek z wyróżnieniem Samorządu Województwa Opolskiego</figcaption></figure><figure><button type="button" data-lb="gal" data-src="foto/jakub-romek-640.webp" data-cap="Jakub i Romek z wyróżnieniem w Urzędzie Marszałkowskim"><img data-src="foto/jakub-romek-640.webp" data-srcset="foto/jakub-romek-400.webp 400w, foto/jakub-romek-640.webp 640w" sizes="(max-width:620px) 70vw, (max-width:1100px) 36vw, 340px" width="640" height="800" decoding="async" alt="Jakub i Romek z wyróżnieniem w Urzędzie Marszałkowskim"></button><figcaption>Jakub i Romek z wyróżnieniem w Urzędzie Marszałkowskim</figcaption></figure></div>
+ </div>
+</section>
+
+<section class="dostawa" id="dostawa">
+ <div class="w">
+  <div class="glowa"><div><h2>Jak wysyłamy sery</h2><p>Nasze sery, jogurty i mleko to produkty świeże, więc pakujemy je tak, żeby dotarły chłodne w każdy zakątek Polski.</p></div></div>
+  <div class="dost">
+   <ol class="kroki">
+    <li><b>Pakujemy hermetycznie</b><span>Każdy ser osobno, żeby zachował smak i świeżość.</span></li>
+    <li><b>Styrobox z wkładem chłodzącym</b><span>Paczka to pudełko termoizolacyjne z zamrożonym wkładem, który trzyma niską temperaturę w drodze.</span></li>
+    <li><b>Wysyłka w poniedziałek, wtorek i środę</b><span>Żeby paczka nie czekała w sortowni przez weekend. Zamówienia z pozostałych dni nadajemy w najbliższy dzień wysyłkowy.</span></li>
+    <li><b>InPost: Paczkomat lub kurier, 33 zł</b><span>Przy zamówieniu od 400 zł dostawa jest darmowa. Po odebraniu paczki produkty od razu do lodówki.</span></li>
+   </ol>
+   <div>
+    <div class="fot"><img data-src="foto/stol-800.webp" data-srcset="foto/stol-480.webp 480w, foto/stol-800.webp 800w, foto/stol-960.webp 960w" sizes="(max-width:900px) 92vw, 42vw" width="800" height="600" decoding="async" alt="Sery wędzone, jogurt i dzbanek koziego mleka na drewnianym stole"></div>
+    <div class="odbior">
+     <div><h3>Odbiór w gospodarstwie</h3><p>Chudoba 12, 46-275 Chudoba. Przed przyjazdem prosimy o telefon, przygotujemy zamówienie.</p></div>
+     <div><h3>Sklep w Kluczborku</h3><p>ul. Piłsudskiego 8, 46-200 Kluczbork</p>
+      <div class="godz"><span>pon.</span><span>10:00-17:00</span><span>wt.-śr.</span><span>9:00-17:00</span><span>czw.</span><span>9:00-18:30</span><span>pt.</span><span>9:00-17:00</span><span>sob.</span><span>9:00-13:00</span></div></div>
+    </div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section id="kontakt">
+ <div class="w">
+  <div class="kont">
+   <div>
+    <h2>Zamówienia i pytania</h2>
+    <a class="duzy" href="tel:+48796376272"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2z"/></svg> +48 796 376 272</a>
+    <p>Pon.-pt. 9:00-16:00</p>
+    <p><a href="mailto:zamowienia@kozidar.pl">zamowienia@kozidar.pl</a></p>
+    <p class="dane"><b>Sprzedawca:</b> Jakub Famuła, ul. Piłsudskiego 8, 46-200 Kluczbork<br>NIP 7511789541, REGON 527536764</p>
+   </div>
+   <form id="form" novalidate>
+    <h3>Napisz do nas</h3>
+    <label>Imię<input name="imie" autocomplete="given-name" required></label>
+    <label>Telefon lub e-mail<input name="kontakt" autocomplete="email" required></label>
+    <label>Wiadomość<textarea name="tresc" rows="4" required placeholder="Np. pytanie o odbiór osobisty albo większe zamówienie"></textarea></label>
+    <label class="zg"><input type="checkbox" required>Zgadzam się na przetwarzanie moich danych w celu odpowiedzi na wiadomość.</label>
+    <button class="btn" type="submit">Wyślij wiadomość</button>
+    <p class="msg" id="msg" hidden>To podgląd strony - wiadomość nie została wysłana. Na docelowej stronie trafi na zamowienia@kozidar.pl.</p>
+   </form>
+  </div>
+  <div class="mapa" id="mapa" role="region" data-src="https://maps.google.com/maps?q=Pi%C5%82sudskiego%208%2C%2046-200%20Kluczbork&amp;z=15&amp;output=embed" aria-label="Mapa: sklep Kozi Dar, ul. Piłsudskiego 8, Kluczbork"></div>
+ </div>
+</section>
+</main>
+
+<footer>
+ <span class="odcisk" aria-hidden="true"></span>
+ <div class="w">
+  <div class="fl"><img data-src="foto/logo-160.webp" width="72" height="72" alt="Kozi Dar"><p>Rodzinne gospodarstwo i serowarnia w Chudobie pod Opolem.</p></div>
+  <div><h3>Sklep</h3><p><a href="#sery">Sery wędzone</a></p><p><a href="#sery">Sery podpuszczkowe</a></p><p><a href="#sery">Ricotta, twaróg i pasta</a></p><p><a href="#sery">Mleko, kefir, jogurt</a></p></div>
+  <div><h3>Informacje</h3><p><a href="#o-nas">O nas</a></p><p><a href="#dostawa">Dostawa i odbiór</a></p><p><a href="#mleko">Surowe mleko</a></p><p><a href="#kontakt">Kontakt</a></p></div>
+  <div><h3>Kontakt</h3><p><a href="tel:+48796376272">+48 796 376 272</a></p><p><a href="mailto:zamowienia@kozidar.pl">zamowienia@kozidar.pl</a></p><p>Chudoba 12, 46-275 Chudoba</p></div>
+  <div class="dol"><span>&copy; <span id="rok">2026</span> Kozi Dar, Jakub Famuła</span><a class="wylinka-badge" href="https://wylinka.pl/?utm_source=kozidar.pl&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a></div>
+ </div>
+</footer>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Powiększone zdjęcie">
+ <figure><img alt=""><figcaption></figcaption></figure>
+ <button class="x" type="button" aria-label="Zamknij">&times;</button>
+ <button class="p" type="button" aria-label="Poprzednie zdjęcie">&lsaquo;</button>
+ <button class="n" type="button" aria-label="Następne zdjęcie">&rsaquo;</button>
+</div>
+<script src="app.js" defer></script>
+</body>
+</html>
